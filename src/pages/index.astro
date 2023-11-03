@@ -34,6 +34,7 @@ import Layout from '../layouts/Layout.astro';
 		</svg>
 		<h1>My <span class="text-gradient">Astro</span> portfolio</h1>
 		<p class="instructions">Testing astro :)</p>
+		<img src="/astro-test/favicon.svg" alt="astro icon" height="50" width="50">
 	</main>
 </Layout>
 
@@ -88,5 +89,9 @@ import Layout from '../layouts/Layout.astro';
 	}
 	.instructions strong {
 		color: rgb(var(--accent-light));
+	}
+	img {
+		display: block;
+		margin: 0 auto;		
 	}
 </style>
