@@ -1,0 +1,16 @@
+{
+  "name": "My Astro App",
+  "short_name": "AstroApp",
+  "description": "My Progressive Web App built with Astro",
+  "start_url": "/astro-test",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/astro-test/favicon.svg",
+      "sizes": "150x150",
+      "type": "image/svg+xml"
+    }
+  ]
+}
